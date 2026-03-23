@@ -1,4 +1,10 @@
-# Ecobond
+# 🌿 Ecobond
+
+![Hedera](https://img.shields.io/badge/Hedera-EVM-blueviolet?style=for-the-badge&logo=hedera)
+![Solidity](https://img.shields.io/badge/Solidity-000000?style=for-the-badge&logo=solidity&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
+![IoT](https://img.shields.io/badge/IoT-Simulated-orange?style=for-the-badge)
 
 A fullstack green bond investment platform that tokenizes environmental projects and enables USDC-backed investments through a sophisticated blockchain ecosystem. EcoBond combines smart contracts and backend IoT data simulators to create a transparent, measurable impact investment system.
 
@@ -6,7 +12,7 @@ A fullstack green bond investment platform that tokenizes environmental projects
 
 ---
 
-## 1. Project Overview
+## 📖 1. Project Overview
 **Ecobond** is a comprehensive green bond funding protocol prioritizing transparency, verifiable impact, and automated yield distribution. We tokenize real world environmental initiatives and enable direct USDC investments. By combining EVM-compatible smart contracts with backend IoT data simulators acting as oracles, Ecobond creates a uniquely measurable and programmatic impact financing system. In a landscape plagued by greenwashing, Ecobond roots financial execution strictly in verifiable ecological reality.
 
 **Who benefits?**
@@ -16,7 +22,7 @@ A fullstack green bond investment platform that tokenizes environmental projects
 
 ---
 
-## 2. The Problem
+## 🚨 2. The Problem
 Current environmental finance and legacy carbon markets are profoundly broken. Despite trillions of dollars pledged to climate action, capital deployment remains sluggish. Specifically, the ecosystem suffers from:
 
 - **Opaque Reporting & Greenwashing:** Investors are forced to trust self-reported, heavily delayed, easily manipulated PDF reports regarding a project’s actual ecological impact.
@@ -28,7 +34,7 @@ Ecobond fills this critical gap by turning abstract environmental promises into 
 
 ---
 
-## 3. How It Works
+## ⚙️ 3. How It Works
 Ecobond’s core architecture is built for end-to-end verifiability and frictionless capital deployment:
 
 1. **Project Ingestion & NFT Issuance:** An environmental project (e.g., a regional reforestation effort, a localized solar farm) is onboarded onto the platform and minted as a unique NFT. This NFT acts as the "root bond," representing the entirety of the project's data and funding parameters.
@@ -47,7 +53,7 @@ graph LR
 
 ---
 
-## 4. Why Hedera?
+## 🌿 4. Why Hedera?
 We engineered Ecobond on Hedera not merely for its performance, but because its fundamental architectural primitives perfectly map to the requirements of planetary-scale, institutional-grade climate finance. 
 
 - **Carbon-Negative Network:** Hedera's absolute commitment to sustainability means our infrastructure aligns perfectly with our mission. We aren't burning a forest's worth of energy to process a transaction that saves a tree.
@@ -60,17 +66,17 @@ We engineered Ecobond on Hedera not merely for its performance, but because its 
 
 ---
 
-## 5. Tech Stack
+## 💻 5. Tech Stack
 Ecobond's architecture spans smart contracts, modern web interfaces, and backend oracle infrastructure:
 
 - **Smart Contracts (Hedera EVM):** Written in Solidity. Core logic resides in contracts like `ProjectMod.sol` and `InvestmentMod.sol`, managing bond issuance, state transitions, and USDC distribution.
-- **Backend / IoT Oracle Node:** Node.js, Express, and Ethers.js. Acts as the data bridge, running IoT simulations and securely pushing state updates (impact metrics) onto the Hedera network via our oracle endpoints.
-- **Frontend App:** Premium, responsive React / Vite web interface designed for seamless Web3 interaction, providing an intuitive dashboard for both project owners and investors.
+- **Backend / IoT Oracle Node:** Bun, Express, and Ethers.js. Acts as the data bridge, running IoT simulations and securely pushing state updates (impact metrics) onto the Hedera network via our oracle endpoints.
+- **Frontend App:** Premium, responsive Next.js web interface designed for seamless Web3 interaction, providing an intuitive dashboard for both project owners and investors.
 - **Hedera SDKs & Services:** Deep integration with Hedera Hashgraph SDK leveraging HTS, HCS, HSS, and Hedera EVM capabilities.
 
 ---
 
-## 6. Demo & Live Links
+## 🚀 6. Demo & Live Links
 
 - **Video Demo Walkthrough:** 
 - **Smart Contract 1 (ProjectMod):** [0.0.8324622-azcyc](https://hashscan.io/testnet/contract/0.0.8324622)
@@ -79,7 +85,7 @@ Ecobond's architecture spans smart contracts, modern web interfaces, and backend
 
 ---
 
-## 7. The Team
+## 👥 7. The Team
 We are a dedicated team of Web3 engineers and sustainability advocates passionate about fixing real-world environmental tokenomics and shipping production-ready infrastructure.
 - **[David Dada](https://github.com/dadadave80)**
 - **[Abel Osaretin](https://github.com/AbelOsaretin)**
@@ -88,7 +94,7 @@ We are a dedicated team of Web3 engineers and sustainability advocates passionat
 
 ---
 
-## 8. Roadmap: Post-Hackathon
+## 🗺️ 8. Roadmap: Post-Hackathon
 We view Ecobond as a standalone protocol destined for mainnet, not just a hackathon proof of concept. Our upcoming milestones include:
 
 1. **Physical Hardware Integration:** Replace backend software simulators with live api integrations to physical IoT devices (e.g., Libelium sensors, satellite imagery APIs) to demonstrate absolute real world dMRV.
