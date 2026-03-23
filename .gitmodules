@@ -1,3 +1,6 @@
 [submodule "contracts-hedera"]
 	path = contracts-hedera
 	url = https://github.com/Ecobond/contracts-hedera
+[submodule "ecobond-backend-iot-simulation-hedera"]
+	path = ecobond-backend-iot-simulation-hedera
+	url = https://github.com/Ecobond/ecobond-backend-iot-simulation-hedera
