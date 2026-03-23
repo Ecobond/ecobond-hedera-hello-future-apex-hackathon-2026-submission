@@ -1,0 +1,3 @@
+[submodule "contracts-hedera"]
+	path = contracts-hedera
+	url = https://github.com/Ecobond/contracts-hedera
