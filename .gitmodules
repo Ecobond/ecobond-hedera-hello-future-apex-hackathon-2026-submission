@@ -4,3 +4,6 @@
 [submodule "ecobond-backend-iot-simulation-hedera"]
 	path = ecobond-backend-iot-simulation-hedera
 	url = https://github.com/Ecobond/ecobond-backend-iot-simulation-hedera
+[submodule "frontend-hedera"]
+	path = frontend-hedera
+	url = https://github.com/Ecobond/frontend-hedera
